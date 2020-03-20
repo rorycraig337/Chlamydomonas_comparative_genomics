@@ -10,7 +10,7 @@
 
 ## Code
 
-Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri
+Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri*
 
 *C. reinhardtii* and *V. carteri* protein sequences for primary transcripts downloaded from [Phytozome](https://phytozome.jgi.doe.gov/pz/portal.html)
 
