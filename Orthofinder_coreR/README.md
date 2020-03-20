@@ -16,12 +16,19 @@ perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_debaryana.braker
 faSomeRecords ../BRAKER/final_gene_models/c_debaryana.braker2.protein.f3.fa c_debaryana_longest_transcripts.txt c_debaryana.longest_proteins.fa
 
 #pre-process all files using Kinfin (add species names prefixes, remove proteins with internal stop-codons, and proteins <30 aa)
+
 mkdir preprocessed_fastas
+
 filter_fastas_before_clustering.py -f c_reinhardtii.longest_proteins.fa > preprocessed_fastas/c_reinhardtii.protein.fa
+
 filter_fastas_before_clustering.py -f c_incerta.longest_proteins.fa > preprocessed_fastas/c_incerta.protein.fa
+
 filter_fastas_before_clustering.py -f c_schloesseri.longest_proteins.fa > preprocessed_fastas/c_schloesseri.protein.fa
+
 filter_fastas_before_clustering.py -f c_debaryana.longest_proteins.fa > preprocessed_fastas/c_debaryana.protein.fa
+
 filter_fastas_before_clustering.py -f g_pectorale.longest_proteins.fa > preprocessed_fastas/g_pectorale.protein.fa
+
 filter_fastas_before_clustering.py -f v_carteri.longest_proteins.fa > preprocessed_fastas/v_carteri.protein.fa
 
 #run Orthofinder
