@@ -2,17 +2,15 @@
 
 ## Requirements
 
-[KentUtils] (https://github.com/ENCODE-DCC/kentUtils)
-
-[Kinfin] (https://kinfin.readme.io/docs)
-
-[Orthofinder] (https://github.com/davidemms/OrthoFinder)
+[KentUtils](https://github.com/ENCODE-DCC/kentUtils)
+[Kinfin](https://kinfin.readme.io/docs)
+[Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 ## Code
 
 Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri
 
-*C. reinhardtii* and *V. carteri* protein sequences for primary transcripts downloaded from [Phytozome] (https://phytozome.jgi.doe.gov/pz/portal.html)
+*C. reinhardtii* and *V. carteri* protein sequences for primary transcripts downloaded from [Phytozome](https://phytozome.jgi.doe.gov/pz/portal.html)
 
 *G. pectorale* proteins downloaded from NCBI, no alternative transcripts so proceed without changes
 
