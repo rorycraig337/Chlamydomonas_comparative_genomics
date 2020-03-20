@@ -16,7 +16,7 @@ Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale
 
 *G. pectorale* proteins downloaded from NCBI, no alternative transcripts so proceed without changes
 
-extract protein sequences for longest transcripts for *C. incerta, C. schloesseri, E. debaryana
+Extract protein sequences for longest transcripts for *C. incerta, C. schloesseri, E. debaryana*
 
 ```
 perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_incerta.braker2.f3.gtf --out c_incerta_longest_transcripts.txt
