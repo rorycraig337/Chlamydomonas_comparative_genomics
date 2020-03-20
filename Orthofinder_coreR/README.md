@@ -10,6 +10,8 @@
 
 [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
+[GNU Parallel](https://www.gnu.org/software/parallel/)
+
 ## Code
 
 Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri*
