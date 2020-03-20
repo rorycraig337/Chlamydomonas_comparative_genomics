@@ -2,19 +2,21 @@
 
 ## Requirements
 
-KentUtils
-Kinfin
-Orthofinder
+[KentUtils] (https://github.com/ENCODE-DCC/kentUtils)
+
+[Kinfin] (https://kinfin.readme.io/docs)
+
+[Orthofinder] (https://github.com/davidemms/OrthoFinder)
 
 ## Code
 
-species: C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri
+Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri
 
-C. reinhardtii and V. carteri protein sequences for primary transcripts downloaded from Phytozome
+*C. reinhardtii* and *V. carteri* protein sequences for primary transcripts downloaded from [Phytozome] (https://phytozome.jgi.doe.gov/pz/portal.html)
 
-G. pectorale proteins downloaded from NCBI, no alternative transcripts so proceed without changes
+*G. pectorale* proteins downloaded from NCBI, no alternative transcripts so proceed without changes
 
-extract protein sequences for longest transcripts for C. incerta, C. schloesseri, E. debaryana
+extract protein sequences for longest transcripts for *C. incerta, C. schloesseri, E. debaryana
 
 ```
 perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_incerta.braker2.f3.gtf --out c_incerta_longest_transcripts.txt
@@ -29,7 +31,7 @@ perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_debaryana.braker
 faSomeRecords ../BRAKER/final_gene_models/c_debaryana.braker2.protein.f3.fa c_debaryana_longest_transcripts.txt c_debaryana.longest_proteins.fa
 ```
 
-pre-process all files using Kinfin (add species names prefixes, remove proteins with internal stop-codons, and proteins <30 aa)
+Pre-process all files using Kinfin (add species names prefixes, remove proteins with internal stop-codons, and proteins <30 aa)
 
 ```
 mkdir preprocessed_fastas
@@ -41,7 +43,7 @@ filter_fastas_before_clustering.py -f g_pectorale.longest_proteins.fa > preproce
 filter_fastas_before_clustering.py -f v_carteri.longest_proteins.fa > preprocessed_fastas/v_carteri.protein.fa
 ```
 
-run Orthofinder
+Run Orthofinder
 
 ```
 orthofinder -f preprocessed_fastas -op > op_blastp.txt #produce file with BLAST commands
