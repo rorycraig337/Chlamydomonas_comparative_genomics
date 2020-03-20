@@ -1,4 +1,5 @@
-##Orthofinder core-Reinhardtinia
+**Orthofinder core-*Reinhardtinia***
+
 
 
 #species: C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri
