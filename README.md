@@ -1,3 +1,3 @@
-# Reinhardtinia_genomes
+# Comparative genomics of Chlamydomonas
 
-Code for genome assemblies and annotations for species in the clade Reinhardtinia.
+Code for comparative genomics manuscripts, including genome assemblies, annotations and subsequent analyses
