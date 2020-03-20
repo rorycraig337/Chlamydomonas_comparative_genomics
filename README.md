@@ -1,7 +1,7 @@
-# Comparative genomics of Chlamydomonas
+# Comparative genomics of *Chlamydomonas*
 
-Code for comparative genomics manuscripts, including genome assemblies, annotations and subsequent analyses
+Code for comparative genomics manuscript, including genome assemblies, annotations and subsequent analyses
 
-Directories:
+## Directories:
 
-Orthofinder_coreR: Orthofinder run and gene family analyses for 6 core-Reinhardtinia species
+**Orthofinder_coreR**: Orthofinder run and gene family analyses for 6 core-*Reinhardtinia* species
