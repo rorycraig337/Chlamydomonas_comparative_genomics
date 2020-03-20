@@ -2,9 +2,11 @@
 
 ## Requirements
 
-[KentUtils](https://github.com/ENCODE-DCC/kentUtils)\n
-[Kinfin](https://kinfin.readme.io/docs)\n
-[Orthofinder](https://github.com/davidemms/OrthoFinder)\n
+[KentUtils](https://github.com/ENCODE-DCC/kentUtils)
+
+[Kinfin](https://kinfin.readme.io/docs)
+
+[Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 ## Code
 
