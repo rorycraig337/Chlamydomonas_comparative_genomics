@@ -6,6 +6,8 @@
 
 [Kinfin](https://kinfin.readme.io/docs)
 
+[BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+
 [Orthofinder](https://github.com/davidemms/OrthoFinder)
 
 ## Code
