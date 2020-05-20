@@ -13,15 +13,11 @@ samtools index c_incerta.canu_v1.reads.bam
 
 export BLASTDB=/scratch/ncbi/blastdbs
 blastn -task megablast -query ../v1_out/c_incerta.contigs.fasta -db nt -outfmt '6 qseqid staxids bitscore std' -max_target_seqs 1 -max_hsps 1 -num_threads 32 -evalue 1e-25 -out c_incerta.canu_v1.vs.nt.mts1.hsp1.1e25.megablast.out 
-blastn -task megablast -query ../v1_out/c_incerta.contigs.fasta -db nt -outfmt '6 qseqid staxids bitscore std' -max_target_seqs 1 -max_hsps 1 -num_threads 32 -evalue 1e-10 -out c_incerta.canu_v1.vs.nt.mts1.hsp1.1e10.megablast.out
+
 
 blobtools create -i ../v1_out/c_incerta.contigs.fasta -s c_incerta.canu_v1.reads.sam -t c_incerta.canu_v1.vs.nt.mts1.hsp1.1e25.megablast.out -o blobtools_canu_v1
 blobtools view -i blobtools_canu_v1.blobDB.json
 blobtools plot -i blobtools_canu_v1.blobDB.json
-
-blobtools create -i ../v1_out/c_incerta.contigs.fasta -s c_incerta.canu_v1.reads.sam -t c_incerta.canu_v1.vs.nt.mts1.hsp1.1e10.megablast.out -o blobtools_canu_v1_e10
-blobtools view -i blobtools_canu_v1_e10.blobDB.json
-blobtools plot -i blobtools_canu_v1_e10.blobDB.json
 ```
 
 Extract non-contaminant reads from Canu assembly
