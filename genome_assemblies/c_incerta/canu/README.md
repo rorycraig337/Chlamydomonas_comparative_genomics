@@ -66,8 +66,8 @@ No contaminant contigs, extract reads used in final assembly version
 ```
 grep ">" canu_v2.reads.fa | cut -c2- > final_reads.txt
 perl ../preliminary_blobtools/extract_taxonomy.pl --table blobtools_canu_v2.blobDB.table.txt --list no-hit,Chlorophyta --out usable_contigs.txt
-samtools faidx ../v2_out/c_incerta_canu_v2.contigs.fasta
-perl ../preliminary_blobtools/fai2bed.pl --fai ../v2_out/c_incerta_canu_v2.contigs.fasta.fai --out c_incerta.contigs.bed
+samtools faidx v2_out/c_incerta_canu_v2.contigs.fasta
+perl ../preliminary_blobtools/fai2bed.pl --fai v2_out/c_incerta_canu_v2.contigs.fasta.fai --out c_incerta.contigs.bed
 grep -f usable_contigs.txt c_incerta.contigs.bed > usable_contigs.bed
 samtools view -b -L usable_contigs.bed c_incerta.canu_v2.reads.bam > usable_reads.bam
 samtools fasta -0 usable_reads.fa usable_reads.bam
