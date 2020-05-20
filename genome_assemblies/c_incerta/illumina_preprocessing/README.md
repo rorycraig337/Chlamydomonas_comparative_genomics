@@ -196,3 +196,18 @@ samtools index c_incerta_MP2.MP_all.bam
 
 rm temp*
 ```
+
+Trim RNA-seq library with Trimmomatics
+
+```
+java -jar ~/programs/Trimmomatic-0.38/trimmomatic-0.38.jar PE FCHMKW2CCXY_L5_WHCHLtovEAAARAAPEI-218_1.fq.gz FCHMKW2CCXY_L5_WHCHLtovEAAARAAPEI-218_2.fq.gz c_incerta.RNAseq.1.P.fq.gz c_incerta.RNAseq.1.U.fq.gz c_incerta.RNAseq.2.P.fq.gz c_incerta.RNAseq.2.U.fq.gz ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:3 MINLEN:25
+```
+
+Map reads with STAR
+
+```
+STAR --runThreadN 32 --genomeDir ../arrow/ --readFilesIn c_incerta.RNAseq.1.P.fq.gz c_incerta.RNAseq.2.P.fq.gz --readFilesCommand zcat --twopassMode Basic --outSAMtype BAM Unsorted
+samtools sort Aligned.out.bam > c_incerta.RNAseq.bam
+samtools flagstat c_incerta.RNAseq.bam > c_incerta.RNAseq.flagstat.txt
+samtools index c_incerta.RNAseq.bam
+```
