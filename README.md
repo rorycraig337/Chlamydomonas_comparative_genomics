@@ -12,6 +12,8 @@ Code for comparative genomics manuscript, including genome assemblies, annotatio
 
 **phylogenetic_analyses**: IQ-TREE and ASTRAL-III analyses
 
+**synteny_analysis**: identification of synteny blocks using Synchro
+
 **Orthofinder_coreR**: Orthofinder run and gene family analyses for 6 core-*Reinhardtinia* species
 
 **Cactus_WGA**: whole-genome alignment pipeline
