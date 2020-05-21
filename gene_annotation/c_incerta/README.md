@@ -10,6 +10,5 @@ samtools index c_incerta.RNAseq.softmask_nl.bam
 Split mapped reads to plus and minus
 
 ```
-bash split_bam.sh c_incerta.RNAseq.softmask_nl.bam
 bash split_bam_proper_pairs.sh c_incerta.RNAseq.softmask_nl.bam
 ```
