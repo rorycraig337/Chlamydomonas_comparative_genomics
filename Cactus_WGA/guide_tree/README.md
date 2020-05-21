@@ -7,3 +7,14 @@ perl BUSCO_summary_to_fastas_filter.nuc.pl --summary full_summary.volvocales_gol
 ```
 
 Align proteins 
+
+```
+bash ../../phylogenetic_analyses/BUSCO/mafft_trimal.sh
+```
+
+Extract 4D sites based on protein alignments and concatenate
+
+```
+bash 4D_extract.sh
+perl catfasta2phyml.pl -f -c *4D.fa > volvocales_gold_100.4D_concat.fa
+```
