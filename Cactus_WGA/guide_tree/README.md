@@ -18,3 +18,8 @@ Extract 4D sites based on protein alignments and concatenate
 bash 4D_extract.sh
 perl catfasta2phyml.pl -f -c *4D.fa > volvocales_gold_100.4D_concat.fa
 ```
+Get neutral branch lengths using topology from phylogenetic analyses
+
+```
+phyloFit --tree "((Edaphochlamys_debaryana,(Chlamydomonas_schloesseri,(Chlamydomonas_incerta,Chlamydomonas_reinhardtii))),(((Eudorina_2016-703-Eu-15,Volvox_carteri),Yamagishiella_unicocca),Gonium_pectorale))" volvocales_gold_100.4D_concat.fa
+```
