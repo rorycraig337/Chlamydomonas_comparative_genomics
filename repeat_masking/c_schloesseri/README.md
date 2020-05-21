@@ -10,7 +10,7 @@ BLAST results against all C. reinhardtii and V. carteri, filtering unknown hits 
 
 ```
 blastn -query Chlamydomonas_schloesseri_repmod.fa -db ../c_incerta/Cr_Vc_transcripts.fa -outfmt "6 qseqid sseqid pident slen qlen length mismatch gapopen evalue" -out repmod-v-transcripts.out
-perl ../c_incerta/filter_repeat_modeler_hits.pl --blast repmod-v-transcripts.out --cutoff 0.001 --fasta Chlamydomonas_schloesseri_repmod.fa --out Chlamydomonas_incerta_repmod_filtered.fa
+perl ../c_incerta/filter_repeat_modeler_hits.pl --blast repmod-v-transcripts.out --cutoff 0.001 --fasta Chlamydomonas_schloesseri_repmod.fa --out Chlamydomonas_schloesseri_repmod_filtered.fa
 ```
 
 Make custom lib by combining Volvocales curated repeats with RepeatModeler output
