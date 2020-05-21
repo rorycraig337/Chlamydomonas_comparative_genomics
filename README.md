@@ -15,3 +15,5 @@ Code for comparative genomics manuscript, including genome assemblies, annotatio
 **Orthofinder_coreR**: Orthofinder run and gene family analyses for 6 core-*Reinhardtinia* species
 
 **Cactus_WGA**: whole-genome alignment pipeline
+
+**phastCons**: pipeline for identification of conserved elements from Cactus alignment
