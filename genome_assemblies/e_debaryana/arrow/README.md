@@ -1,6 +1,6 @@
 pbalign + arrow 1
 
-``
+```
 source ~/my_env/bin/activate
 pbalign --nproc 24 ../pacbio_reads/m54041_180619_025334.subreads.bam ../canu/v1_out/c_debaryana.contigs.fasta c_debaryana_canu_v1.pbalign_v1.bam
 samtools index c_debaryana_canu_v1.pbalign_v1.bam
