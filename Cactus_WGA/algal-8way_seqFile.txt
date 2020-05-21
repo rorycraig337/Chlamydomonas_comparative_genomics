@@ -1,11 +1,11 @@
 # Sequence data for progressive alignment of 8 genomes
 # no * genome, all of high-quality
 ((Edaphochlamys_debaryana:0.471053,(Chlamydomonas_schloesseri:0.16954,(Chlamydomonas_incerta:0.13722,Chlamydomonas_reinhardtii:0.171583):0.0558576):0.232128):0.0451747,(((Eudorina_2016-703-Eu-15:0.403902,Volvox_carteri:0.464315):0.107813,Yamagishiella_unicocca:0.380766):0.143137,Gonium_pectorale:0.449341):0.0451747);
-Chlamydomonas_reinhardtii.rm.fa
-Chlamydomonas_incerta.rm.fa
-Chlamydomonas_schloesseri.rm.fa
-Edaphochlamys_debaryana.rm.fa
-Gonium_pectorale.rm.fa
-Yamagishiella_unicocca.rm.fa
-Eudorina_2016-703-Eu-15.rm.fa
-Volvox_carteri.rm.fa
+preprocess_genomes/Chlamydomonas_reinhardtii.rm.fa
+preprocess_genomes/Chlamydomonas_incerta.rm.fa
+preprocess_genomes/Chlamydomonas_schloesseri.rm.fa
+preprocess_genomes/Edaphochlamys_debaryana.rm.fa
+preprocess_genomes/Gonium_pectorale.rm.fa
+preprocess_genomes/Yamagishiella_unicocca.rm.fa
+preprocess_genomes/Eudorina_2016-703-Eu-15.rm.fa
+preprocess_genomes/Volvox_carteri.rm.fa
