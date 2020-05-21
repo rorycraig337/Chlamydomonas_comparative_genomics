@@ -11,11 +11,17 @@ Add R domain on MT loci where available
 *V. carteri* MT male is GU784916, contains C domain, split at start of PKY1
 
 ```
-cat Chlamydomonas_reinhardtii.v5.fa Chlamydomonas_reinhardtii.MT_minus.fa > Chlamydomonas_reinhardtii.w_MT.fa
+cat Chlamydomonas_reinhardtii.fa Chlamydomonas_reinhardtii.MT_minus.fa > Chlamydomonas_reinhardtii.w_MT.fa
 cat Gonium_pectorale.fa Gonium_pectorale.MT_plus.fa > Gonium_pectorale.w_MT.fa
 cat Yamagishiella_unicocca.fa Yamagishiella_unicocca.MT_minus.fa > Yamagishiella_unicocca.w_MT.fa
 cat Eudorina_2016-703-Eu-15.fa Eudorina_sp_2006-703-Eu-15.MT_male.fa > Eudorina_2016-703-Eu-15.w_MT.fa
 cat Volvox_carteri.fa Volvox_carteri.MT_male.fa > Volvox_carteri.w_MT.fa
+
+mv Chlamydomonas_reinhardtii.w_MT.fa Chlamydomonas_reinhardtii.fa
+mv Gonium_pectorale.w_MT.fa Gonium_pectorale.fa
+mv Yamagishiella_unicocca.w_MT.fa Yamagishiella_unicocca.fa
+mv Eudorina_2016-703-Eu-15.w_MT.fa Eudorina_2016-703-Eu-15.fa
+mv Volvox_carteri.w_MT.fa Volvox_carteri.fa
 ```
 
 Run RepeatModeler on each species
