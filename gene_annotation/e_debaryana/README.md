@@ -12,3 +12,9 @@ Split mapped reads to plus and minus
 ```
 bash ../c_incerta/split_bam_proper_pairs.sh c_debaryana.RNAseq.softmask_nl.bam
 ```
+
+Run BRAKER2
+
+```
+braker.pl --species=c_debaryana --genome=../../repeat_masking/e_debaryana/Chlamydomonas_debaryana.V1.softmasked.nuclear.fa --softmasking --bam=plus.bam,minus.bam --stranded=+,- --UTR=on --cores 12
+```
