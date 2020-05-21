@@ -16,7 +16,7 @@ perl ../c_incerta/filter_repeat_modeler_hits.pl --blast repmod-v-transcripts.out
 Make custom lib by combining Volvocales curated repeats with RepeatModeler output
 
 ```
-cat volvocales_repeat_lib_w_nonTE.fa Chlamydomonas_schloesseri_repmod_filtered.fa > c_sch_custom_lib.fa
+cat ../c_incerta/volvocales_repeat_lib_w_nonTE.fa Chlamydomonas_schloesseri_repmod_filtered.fa > c_sch_custom_lib.fa
 ```
 
 Run RepeatMasker without masking low complexity repeats
