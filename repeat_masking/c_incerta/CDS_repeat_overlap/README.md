@@ -17,5 +17,5 @@ bedtools merge -i s_other_repeats.bed > m_other_repeats.bed
 perl gene_TE_overlap.pl --gff ../../../gene_annotation/final_gene_models/c_incerta.braker2.f2.gtf --TEs m_TEs.bed --repeats m_other_repeats.bed --out c_incerta.repeat_overlap.tsv
 sort -nrk4,4 -nrk2,2 c_incerta.repeat_overlap.tsv > s_c_incerta.repeat_overlap.tsv
 perl filter_TE_genes.pl --overlap c_incerta.repeat_overlap.tsv --TE 30 --simple 70 --out repeat_genes.txt
-perl add_transcript_numbers.pl --list repeat_genes.txt --fasta ../../../BRAKER/final_gene_models/c_incerta.braker2.CDS.f2.fa --out repeat_genes.with_transcripts.txt
+perl add_transcript_numbers.pl --list repeat_genes.txt --fasta ../../../gene_annotation/final_gene_models/c_incerta.braker2.CDS.f2.fa --out repeat_genes.with_transcripts.txt
 ```
