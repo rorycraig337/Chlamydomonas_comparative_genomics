@@ -4,7 +4,7 @@ Run Canu using unfiltered reads and genome size estimate from Miniasm
 canu -p c_debaryana -d v1_out genomeSize=148.9m -pacbio-raw ../pacbio_reads/c_debaryana.subreads.fa correctedErrorRate=0.065 corMhapSensitivity=normal maxThreads=24 gnuplotTested=true
 ```
 
-Run Blobtools on Canu assembly
+Run Blobtools on Canu assembly - no contaminants
 
 ```
 minimap2 -ax map-pb -t24 v1_out/c_debaryana.contigs.fasta ../pacbio_reads/c_debaryana.subreads.fa > c_debaryana.canu_v1.reads.sam
