@@ -23,16 +23,16 @@ Species: *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale
 Extract protein sequences for longest transcripts for *C. incerta, C. schloesseri, E. debaryana*
 
 ```
-perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_incerta.braker2.f3.gtf --out c_incerta_longest_transcripts.txt
-faSomeRecords ../BRAKER/final_gene_models/c_incerta.braker2.protein.f3.fa c_incerta_longest_transcripts.txt c_incerta.longest_proteins.fa
+perl extract_longest_ids.pl --gtf ../gene_annotations/final_gene_models/c_incerta.braker2.f3.gtf --out c_incerta_longest_transcripts.txt
+faSomeRecords ../gene_annotation/final_gene_models/c_incerta.braker2.protein.f3.fa c_incerta_longest_transcripts.txt c_incerta.longest_proteins.fa
 
 
-perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_schloesseri.braker2.f3.gtf --out c_schloesseri_longest_transcripts.txt
-faSomeRecords ../BRAKER/final_gene_models/c_schloesseri.braker2.protein.f3.fa c_schloesseri_longest_transcripts.txt c_schloesseri.longest_proteins.fa
+perl extract_longest_ids.pl --gtf ../gene_annotation/final_gene_models/c_schloesseri.braker2.f3.gtf --out c_schloesseri_longest_transcripts.txt
+faSomeRecords ../gene_annotation/final_gene_models/c_schloesseri.braker2.protein.f3.fa c_schloesseri_longest_transcripts.txt c_schloesseri.longest_proteins.fa
 
 
-perl extract_longest_ids.pl --gtf ../BRAKER/final_gene_models/c_debaryana.braker2.f3.gtf --out c_debaryana_longest_transcripts.txt
-faSomeRecords ../BRAKER/final_gene_models/c_debaryana.braker2.protein.f3.fa c_debaryana_longest_transcripts.txt c_debaryana.longest_proteins.fa
+perl extract_longest_ids.pl --gtf ../gene_annotation/final_gene_models/c_debaryana.braker2.f3.gtf --out c_debaryana_longest_transcripts.txt
+faSomeRecords ../gene_annotation/final_gene_models/c_debaryana.braker2.protein.f3.fa c_debaryana_longest_transcripts.txt c_debaryana.longest_proteins.fa
 ```
 
 Pre-process all files using Kinfin (add species names prefixes, remove proteins with internal stop-codons, and proteins <30 aa)
