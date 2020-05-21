@@ -1,0 +1,8 @@
+Chlamydomonas_incerta.Cr2
+Chlamydomonas_reinhardtii.Cr2
+Chlamydomonas_schloesseri.Cr2
+Edaphochlamys_debaryana.Cr2
+Eudorina_2016-703-Eu-15.Cr2
+Gonium_pectorale.Cr2
+Volvox_carteri.Cr2
+Yamagishiella_unicocca.Cr2
