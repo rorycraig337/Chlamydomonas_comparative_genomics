@@ -1,14 +1,14 @@
 Add R domain on MT loci where available
 
-Gonium pectorale mt+ R is LC062719.1
+*Gonium pectorale* MT+ R is LC062719.1
 
-C. reinhardtii mt- is GU814015.1, contains T domain, split from end of TOC32
+*C. reinhardtii* MT- is GU814015.1, contains T domain, split from end of TOC32
 
-Yamagishiella uniccoa mt- is LC314413
+*Yamagishiella uniccoa* MT- is LC314413
 
-Eudorina mt male is LC314415
+*Eudorina* MT male is LC314415
 
-V. carteri mt male is GU784916, contains C domain, split at start of PKY1
+*V. carteri* MT male is GU784916, contains C domain, split at start of PKY1
 
 ```
 cat Chlamydomonas_reinhardtii.v5.fa Chlamydomonas_reinhardtii.MT_minus.fa > Chlamydomonas_reinhardtii.w_MT.fa
