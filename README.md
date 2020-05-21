@@ -10,4 +10,6 @@ Code for comparative genomics manuscript, including genome assemblies, annotatio
 
 **gene_annotation**: gene model annotation pipeline
 
+**phylogenetic_analyses**: IQ-TREE and ASTRAL-III analyses
+
 **Orthofinder_coreR**: Orthofinder run and gene family analyses for 6 core-*Reinhardtinia* species
