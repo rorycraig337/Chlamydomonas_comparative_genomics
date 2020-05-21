@@ -24,7 +24,9 @@ Produce PRT file
 perl fasta2prt.pl --fasta Creinhardtii_281_v5.6.protein_primaryTranscriptOnly.fa --def CREI.def --prt CREI.prt
 ```
 
-#now repeat for each other species
+Now repeat for each other species
+
+```
 grep ">" ../Orthofinder_coreR/c_incerta.longest_proteins.fa | sed 's/^.//' > c_incerta.gene_list.txt
 perl gene_gtf2bed.pl --gtf ../gene_annotation/final_gene_models/c_incerta.braker2.f3.gtf --list c_incerta.gene_list.txt --out c_incerta.features.bed
 sort -k1,1 -k2n,2n c_incerta.features.bed > s.c_incerta.features.bed
