@@ -46,17 +46,17 @@ perl filterGTF.pl --gtf c_debaryana.braker2.f1.gtf --filter c_debaryana.short_pe
 Remove repeat overlap genes
 
 ```
-faSomeRecords -exclude c_incerta.braker2.CDS.f2.fa ../../TE_annotation/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_incerta.braker2.CDS.f3.fa
-faSomeRecords -exclude c_incerta.braker2.protein.f2.fa ../../TE_annotation/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_incerta.braker2.protein.f3.fa
-perl filterGTF.pl --gtf c_incerta.braker2.f2.gtf --filter ../../TE_annotation/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_incerta.braker2.f3.gtf
+faSomeRecords -exclude c_incerta.braker2.CDS.f2.fa ../../repeat_masking/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_incerta.braker2.CDS.f3.fa
+faSomeRecords -exclude c_incerta.braker2.protein.f2.fa ../../repeat_masking/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_incerta.braker2.protein.f3.fa
+perl filterGTF.pl --gtf c_incerta.braker2.f2.gtf --filter ../../repeat_masking/c_incerta/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_incerta.braker2.f3.gtf
 
-faSomeRecords -exclude c_schloesseri.braker2.CDS.f2.fa ../../TE_annotation/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_schloesseri.braker2.CDS.f3.fa
-faSomeRecords -exclude c_schloesseri.braker2.protein.f2.fa ../../TE_annotation/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_schloesseri.braker2.protein.f3.fa
-perl filterGTF.pl --gtf c_schloesseri.braker2.f2.gtf --filter ../../TE_annotation/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_schloesseri.braker2.f3.gtf
+faSomeRecords -exclude c_schloesseri.braker2.CDS.f2.fa ../../repeat_masking/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_schloesseri.braker2.CDS.f3.fa
+faSomeRecords -exclude c_schloesseri.braker2.protein.f2.fa ../../repeat_masking/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_schloesseri.braker2.protein.f3.fa
+perl filterGTF.pl --gtf c_schloesseri.braker2.f2.gtf --filter ../../repeat_masking/c_schloesseri/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_schloesseri.braker2.f3.gtf
 
-faSomeRecords -exclude c_debaryana.braker2.CDS.f2.fa ../../TE_annotation/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_debaryana.braker2.CDS.f3.fa
-faSomeRecords -exclude c_debaryana.braker2.protein.f2.fa ../../TE_annotation/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_debaryana.braker2.protein.f3.fa
-perl filterGTF.pl --gtf c_debaryana.braker2.f2.gtf --filter ../../TE_annotation/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_debaryana.braker2.f3.gtf
+faSomeRecords -exclude c_debaryana.braker2.CDS.f2.fa ../../repeat_masking/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_debaryana.braker2.CDS.f3.fa
+faSomeRecords -exclude c_debaryana.braker2.protein.f2.fa ../../repeat_masking/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt c_debaryana.braker2.protein.f3.fa
+perl filterGTF.pl --gtf c_debaryana.braker2.f2.gtf --filter ../../repeat_masking/c_debaryana/CDS_repeat_overlap/repeat_genes.with_transcripts.txt --out c_debaryana.braker2.f3.gtf
 ```
 
 Convert to GFF3
