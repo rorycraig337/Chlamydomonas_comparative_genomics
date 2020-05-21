@@ -8,4 +8,6 @@ Code for comparative genomics manuscript, including genome assemblies, annotatio
 
 **repeat_masking**: repeat masking pipeline prior to gene model annotation
 
+**gene_annotation**: gene model annotation pipeline
+
 **Orthofinder_coreR**: Orthofinder run and gene family analyses for 6 core-*Reinhardtinia* species
