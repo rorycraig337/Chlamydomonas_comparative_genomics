@@ -1,6 +1,7 @@
 Orthofinder species:  *C. reinhardtii, C. incerta, C. schloesseri, E. debaryana, G. pectorale, V. carteri, D. salina, C. eustigma, R. subcapita, C. zofingiensis*
 
 Use primary transcript models for Phytozome species (downloaded 13/10/19)
+
 Use NCBI versions for non-Phytzome species (downloaded 13/10/19)
 
 Get longest protein coding sequences from BRAKER annotations
